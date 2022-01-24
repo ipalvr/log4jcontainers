@@ -1,1 +1,4 @@
-kubectl run redis --image=redis
+kubectl run vul-app-1 --image=fefefe8888/l4s-demo-app:1.0
+kubectl run vul-app-2 --image=fefefe8888/l4s-demo-app:1.0
+kubectl run att-svr --image=fefefe8888/l4s-demo-svr:1.0
+kubectl run attacker-machine --image=fefefe8888/my-ubuntu:18.04
