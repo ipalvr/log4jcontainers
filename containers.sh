@@ -1,5 +1,5 @@
- #!/bin/bash
- set -ex
+#!/bin/bash
+set -ex
 # setup environments for Log4Shell demo
 docker network create dirty-net
 docker container run -itd --rm --name vul-app-1 --network dirty-net fefefe8888/l4s-demo-app:1.0
